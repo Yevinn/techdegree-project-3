@@ -82,9 +82,6 @@ label[for="zip"]{
   display: block;
 }
 
-label[for="zip"]{
-  display: block;
-}
 input[id="zip"]{
   width: 50%;
   max-width: 155px;
