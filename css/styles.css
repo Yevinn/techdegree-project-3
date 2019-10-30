@@ -73,11 +73,8 @@ textarea:focus {
     outline: none;
     border: solid 2px #157EFA;
     background-color: #E0E1E2;
-    transition: background-color .6s ease-in-out;
-    transition: height .2s ease-in-out;
-    height: 54px;
+    transition: background-color .8s ease-in-out;
 }
-
 label[for="zip"]{
   display: block;
 }
@@ -132,6 +129,8 @@ button{
   .group input,
   .group select{
     flex: 1 70%;
-    
+  }
+  input[id="zip"]{
+    margin-right: 39.3%;
   }
 }
